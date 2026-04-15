@@ -1,4 +1,4 @@
-from feature_extractor import extract_features
+from backend.feature_extractor import extract_features
 
 img_path = "../dataset/images/img1.jpg"
 

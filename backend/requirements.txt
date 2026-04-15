@@ -4,4 +4,4 @@ python-multipart
 numpy
 scikit-learn
 pillow
-tensorflow==2.15.0
+

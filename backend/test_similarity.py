@@ -1,5 +1,5 @@
-from similarity_search import find_similar_images
-from origin_estimator import estimate_origin
+from backend.similarity_search import find_similar_images
+from backend.origin_estimator import estimate_origin
 
 query_image = "../dataset/images/img10.jpg"
 

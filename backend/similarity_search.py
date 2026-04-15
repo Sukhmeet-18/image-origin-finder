@@ -2,7 +2,7 @@ import numpy as np
 import os
 import json
 from sklearn.metrics.pairwise import cosine_similarity
-from feature_extractor import extract_features
+from backend.feature_extractor import extract_features
 
 # Load saved data
 features = np.load("features.npy")

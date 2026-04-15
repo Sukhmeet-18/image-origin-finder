@@ -5,8 +5,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 from backend.feature_extractor import extract_features
 
 # Load saved data
-features = np.load("features.npy")
-image_names = np.load("image_names.npy")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+features = np.load(os.path.join(BASE_DIR, "features.npy"))
+image_names = np.load(os.path.join(BASE_DIR, "image_names.npy"))
 
 # Load metadata
 with open("../dataset/metadata.json", "r") as f:

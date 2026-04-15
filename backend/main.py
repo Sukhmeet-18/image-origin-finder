@@ -3,7 +3,7 @@ from fastapi import FastAPI, File, UploadFile
 import shutil
 import os
 
-from similarity_search import find_similar_images
+from backend.similarity_search import find_similar_images
 from origin_estimator import estimate_origin
 
 app = FastAPI()

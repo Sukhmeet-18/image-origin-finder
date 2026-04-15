@@ -4,7 +4,7 @@ import shutil
 import os
 
 from backend.similarity_search import find_similar_images
-from origin_estimator import estimate_origin
+from backend.origin_estimator import estimate_origin
 
 app = FastAPI()
 app.add_middleware(

@@ -1,7 +1,7 @@
 import os
 import json
 import numpy as np
-from feature_extractor import extract_features
+from backend.feature_extractor import extract_features
 
 DATASET_PATH = "../dataset"
 IMAGE_FOLDER = os.path.join(DATASET_PATH, "images")

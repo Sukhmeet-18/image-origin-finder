@@ -11,7 +11,10 @@ features = np.load(os.path.join(BASE_DIR, "features.npy"))
 image_names = np.load(os.path.join(BASE_DIR, "image_names.npy"))
 
 # Load metadata
-with open("../dataset/metadata.json", "r") as f:
+ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
+metadata_path = os.path.join(ROOT_DIR, "dataset", "metadata.json")
+
+with open(metadata_path, "r") as f:
     metadata = json.load(f)
 
 # Convert metadata to dictionary for quick lookup

@@ -6,8 +6,8 @@ A full-stack machine learning application that identifies the probable origin of
 
 ## 🚀 Live Demo
 
-* 🔗 Frontend: https://your-vercel-link.vercel.app
-* 🔗 Backend API: https://image-origin-finder-4.onrender.com
+* 🔗 Frontend: [https://your-vercel-link.vercel.app](https://image-origin-finder.vercel.app/)
+* 🔗 Backend API: [https://image-origin-finder-4.onrender.com](https://image-origin-finder-4.onrender.com/docs#/default/upload_image_upload_post)
 
 ---
 
